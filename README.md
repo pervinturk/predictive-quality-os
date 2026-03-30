@@ -53,7 +53,7 @@ cd predictive-quality-os
 
 # Install dependencies
 pip install -r requirements.txt
-
+```
 ## Execution Guide
 To accurately simulate the microservices environment, initialize the system in the exact sequence below using separate terminal instances.
 
@@ -61,12 +61,24 @@ To accurately simulate the microservices environment, initialize the system in t
 Ensure the Ollama service is running in the background with the required model before starting the simulation.
 ```bash
 ollama run llama3.2
+```
 
-streamlit run src/main_dashboard.py
-uvicorn src.api_server:app --reload
-streamlit run src/live_monitoring.py
-python src/data_streamer.py
+Train Model & Generate Schema (Terminal 1):
 ```bash
+streamlit run src/main_dashboard.py
+```
+Initialize Prediction API (Terminal 2):
+```bash
+uvicorn src.api_server:app --reload
+```
+Launch Live Monitoring Room (Terminal 3):
+```bash
+streamlit run src/live_monitoring.py
+```
+Start Production Simulator (Terminal 4):
+```bash
+python src/data_streamer.py
+```
 
 Development Roadmap (Active)
 This project follows an agile methodology. Current progress:
