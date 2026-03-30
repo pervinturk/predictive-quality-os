@@ -53,3 +53,28 @@ cd predictive-quality-os
 
 # Install dependencies
 pip install -r requirements.txt
+
+## Execution Guide
+To accurately simulate the microservices environment, initialize the system in the exact sequence below using separate terminal instances.
+
+**Prerequisite (Local LLM Engine):**
+Ensure the Ollama service is running in the background with the required model before starting the simulation.
+```bash
+ollama run llama3.2
+
+streamlit run src/main_dashboard.py
+uvicorn src.api_server:app --reload
+streamlit run src/live_monitoring.py
+python src/data_streamer.py
+```bash
+
+Development Roadmap (Active)
+This project follows an agile methodology. Current progress:
+
+[x] Sprint 1 (Completed): Core AutoML engine, strict type validation API, Real-time Streamlit telemetry, and Role-based UX/UI.
+
+[ ] Sprint 2 (In Progress): OEE (Overall Equipment Effectiveness) integration, NetworkX Bottleneck Analysis optimization, and Root Cause visualization.
+
+[ ] Sprint 3 (Planned): Docker containerization, JWT-based API security, and shift-end automated reporting.
+
+Disclaimer: This project is an independent professional portfolio work designed to demonstrate advanced Industry 4.0 software architecture, cost-sensitive machine learning, and decoupled microservices. It is not affiliated with, endorsed by, or sponsored by any specific corporation. Any resemblance to proprietary enterprise software is purely coincidental.
