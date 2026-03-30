@@ -80,13 +80,12 @@ Start Production Simulator (Terminal 4):
 python src/data_streamer.py
 ```
 
-Development Roadmap (Active)
+## Development Roadmap (Active)
 This project follows an agile methodology. Current progress:
 
-[x] Sprint 1 (Completed): Core AutoML engine, strict type validation API, Real-time Streamlit telemetry, and Role-based UX/UI.
+- [x] **Sprint 1 (Completed):** Core AutoML engine, strict type validation API, Real-time Streamlit telemetry, and Role-based UX/UI.
+- [ ] **Sprint 2 (In Progress):** OEE (Overall Equipment Effectiveness) integration, NetworkX Bottleneck Analysis optimization, and Root Cause visualization.
+- [ ] **Sprint 3 (Planned):** Docker containerization, JWT-based API security, and shift-end automated reporting.
 
-[ ] Sprint 2 (In Progress): OEE (Overall Equipment Effectiveness) integration, NetworkX Bottleneck Analysis optimization, and Root Cause visualization.
-
-[ ] Sprint 3 (Planned): Docker containerization, JWT-based API security, and shift-end automated reporting.
-
-Disclaimer: This project is an independent professional portfolio work designed to demonstrate advanced Industry 4.0 software architecture, cost-sensitive machine learning, and decoupled microservices. It is not affiliated with, endorsed by, or sponsored by any specific corporation. Any resemblance to proprietary enterprise software is purely coincidental.
+---
+*Disclaimer: This project is an independent professional portfolio work designed to demonstrate advanced Industry 4.0 software architecture, cost-sensitive machine learning, and decoupled microservices. It is not affiliated with, endorsed by, or sponsored by any specific corporation. Any resemblance to proprietary enterprise software is purely coincidental.*
