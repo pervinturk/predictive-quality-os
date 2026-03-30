@@ -61,7 +61,7 @@ Ensure the Ollama service is running in the background with the required model b
 ollama run llama3.2
 ```
 
-**To accurately simulate the microservices environment, initialize the system in the exact sequence below using separate terminal instances.**
+####**To accurately simulate the microservices environment, initialize the system in the exact sequence below using separate terminal instances.**
 
 **Train Model & Generate Schema (Terminal 1):**
 ```bash
