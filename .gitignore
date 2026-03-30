@@ -1,0 +1,5 @@
+__pycache__/
+*.db
+models/registry/*.pkl
+.DS_Store
+docs/*.pdf
