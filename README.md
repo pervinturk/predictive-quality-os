@@ -55,14 +55,13 @@ cd predictive-quality-os
 pip install -r requirements.txt
 ```
 ## Execution Guide
-To accurately simulate the microservices environment, initialize the system in the exact sequence below using separate terminal instances.
-
 **Prerequisite (Local LLM Engine):**
 Ensure the Ollama service is running in the background with the required model before starting the simulation.
 ```bash
 ollama run llama3.2
 ```
 
+To accurately simulate the microservices environment, initialize the system in the exact sequence below using separate terminal instances.
 Train Model & Generate Schema (Terminal 1):
 ```bash
 streamlit run src/main_dashboard.py
