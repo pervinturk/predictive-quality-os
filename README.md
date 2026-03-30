@@ -41,7 +41,7 @@ Ensure Python 3.9+ is installed, alongside a local instance of Ollama (for LLM r
 
 ```bash
 # Clone the repository
-git clone [https://github.com/pervinturk/predictive-quality-os.git](https://github.com/pervinturk/predictive-quality-os.git)
+git clone https://github.com/pervinturk/predictive-quality-os.git
 cd predictive-quality-os
 
 # Install dependencies
