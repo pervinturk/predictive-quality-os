@@ -9,6 +9,12 @@
 
 ## Executive Summary
 **[Active Development]** An autonomous Industry 4.0 Decision Support System featuring real-time anomaly detection, cost-sensitive AutoML (XGBoost), and LLM-driven prescriptive analytics.
+<img width="1907" height="891" alt="a (6)" src="https://github.com/user-attachments/assets/b24fb254-a934-445b-88ec-979a199cd99d" />
+<img width="1907" height="892" alt="a (5)" src="https://github.com/user-attachments/assets/106a2973-8465-4dc9-a0e3-1a63552f67cb" />
+<img width="1907" height="891" alt="a (4)" src="https://github.com/user-attachments/assets/3c64bef9-2e39-4af1-afc6-ceaf9f893a1a" />
+<img width="1907" height="891" alt="a (3)" src="https://github.com/user-attachments/assets/b79957df-4caa-4f8b-84f4-42e6147501f3" />
+<img width="1907" height="890" alt="a (2)" src="https://github.com/user-attachments/assets/2d1df417-5a5d-46fa-98b4-994991601aa8" />
+<img width="1907" height="889" alt="a (1)" src="https://github.com/user-attachments/assets/4c7d84c8-f091-4da7-8461-2a806bd4093c" />
 
 The Predictive Quality Operating System is a microservices-based architecture designed for modern manufacturing environments. It shifts quality control from a reactive state to a predictive intervention model by ingesting high-frequency sensor data and detecting cascading errors within milliseconds. The system prioritizes minimizing the financial impact of false negatives (defective components reaching assembly) over false positives.
 
